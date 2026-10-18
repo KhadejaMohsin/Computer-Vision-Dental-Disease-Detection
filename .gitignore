@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Datasets (do not upload large datasets)
+data/raw/
+data/processed/
+data/splits/
+
+# Model weights and large outputs
+*.pt
+*.pth
+*.onnx
+runs/
+outputs/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Secrets
+.env
