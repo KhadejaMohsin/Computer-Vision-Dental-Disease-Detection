@@ -26,3 +26,6 @@ outputs/
 
 # Secrets
 .env
+
+# VS Code local settings
+.vscode/
